@@ -1,0 +1,104 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #add8e6; /* 淡蓝色背景 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* 容器样式 */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 4000px; /* 容器宽度 */
+  max-width: 90%;
+  height: 75vh; /* 容器高度 */
+  box-sizing: border-box;
+}
+
+/* 页头样式 */
+.header {
+  text-align: center;
+  flex: 1; /* 占四分之一高度 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* 登录容器样式 */
+.login-container {
+  text-align: center;
+  width: 100%;
+  flex: 2; /* 占二分之一高度 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 80%;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 80%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+/* 页脚样式 */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  flex: 1; /* 占四分之一高度 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
